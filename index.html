@@ -1,13 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Effective JavaScript: Frogger</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
 </head>
+
 <body>
+    <div id="container" class="container">
+        <div class="row">
+            <header>
+                <h1>Frogger Arcade Game</h1>
+            </header>
+            <div id="main" class="col-md-12 col-lg-8">
+            </div>
+            <div id="players" class="col-lg-4 hidden-md hidden-xs hidden-sm">
+                <h2>Choose a player</h2>
+                <div class="row">
+                    <img id="char-boy" src="images/char-boy.png" alt="Boy">
+                    <img id="char-cat-girl" src="images/char-cat-girl.png" alt="Cat Girl">
+                    <img id="char-horn-girl" src="images/char-horn-girl.png" alt="Horn Girl">
+                    <img id="char-pink-girl" src="images/char-pink-girl.png" alt="Pink Girl">
+                    <img id="char-princess-girl" src="images/char-princess-girl.png" alt="Princess Girl">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <footer>
+                <h2>Score: <span id="score">0</span>
+                Remaining Time: <span id="timer">30</span></h2>
+            </footer>
+        </div>
+    </div>
+    <script src="js/character-selector.js"></script>
     <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>
 </body>
+
 </html>

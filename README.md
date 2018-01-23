@@ -1,6 +1,16 @@
-frontend-nanodegree-arcade-game
-===============================
+# Frogger Clone Arcade game
+ The Rules are simple
+- Go to the river and you will be happy
+- You can be wherever you want, but during a play you will not be able to change your persona
+- Bugs will bite you and you will return to the begin.
+- Rocks are an obstacle which you will not be able to threspass
+- Gens Hearts and keys will give you points but be fast or they will disapear.
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+To play just open the index.html and be happy
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+
+#Nexts Steps
+- instead of hide the caracter selection gray it out
+- Create new enemies and  wider the map
+- Store hight score
+- Social media integration (share the score on facebook or twitter)
